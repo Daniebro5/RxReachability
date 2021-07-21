@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.social_media_url  = 'https://rxswift.slack.com'
   s.source_files      = 'Sources/RxReachability/**/*'
   
-  s.ios.deployment_target   = '11.0'
+  s.ios.deployment_target   = '12.0'
   s.osx.deployment_target   = '10.10'
   s.tvos.deployment_target  = '11.0'
 
@@ -52,7 +52,7 @@ Pod::Spec.new do |s|
 
   s.app_spec 'RxReachability-Example' do |app_spec|
     app_spec.source_files = 'RxReachabilityTests-Example/RxReachabilityTests/**/*.swift'
-    app_spec.ios.deployment_target = '11.0'
+    app_spec.ios.deployment_target = '12.0'
     app_spec.osx.deployment_target = '10.10'
     app_spec.tvos.deployment_target = '11.0'
 
